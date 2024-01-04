@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     font-family: rubik;
+    color: #0B132A;
 }
 ul {
     list-style: none;
@@ -30,8 +31,6 @@ a {
 }
 .header__list {
     display: flex;
-    flex-direction: row; /* default */
-    justify-content: flex-start; /* default */
     gap: 40px;
     color: #4F5665;
 }
@@ -41,7 +40,6 @@ a {
     gap: 30px;
 }
 .sign-in{
-    color: #0B132A;
     font-weight: 500;
 }
 .nav_button{
@@ -63,12 +61,10 @@ a {
 .wrapper__hero{
     margin-top: 126px;
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
 }
 .title{
     max-width: 555px;
-    color: #0B132A;
     font-size: 50px;
     font-weight: 500;
     line-height: 70px;
@@ -88,4 +84,212 @@ a {
     font-weight: 700;
     line-height: 25px;
 }
+.hero_info{
+    margin: 104px 0px 95px 100px;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hero_info-text{
+    display: flex;
+    gap: 10px;
+    
+}
+.hero_info-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 70px;
+    background: #FFECEC;
+    border: none;
+}
+.hero_info-numbers{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.hero_info-words{
+    color: #4F5665;
+    font-size: 20px;
+    line-height: 30px;
+}
 
+/* features block */
+
+.features{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.features__text{
+    display: flex;
+    justify-content: space-around;
+}
+.features_title{
+    width: 383.406px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.title_description{
+    width: 427.879px;
+    color: #4F5665;
+    line-height: 30px;
+}
+.features_box{
+    display: flex;
+    align-items: center;
+    color: #4F5665;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/* choose your plan block */
+
+.choose-your-plan{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.center_title{
+    margin-top: 210px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+.center_title_description{
+    text-align: center;
+    color: #4F5665;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.three-plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    padding-top: 80px;
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    text-align: center;
+}
+.plan-tittle{
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.jam-box{
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    color: #4F5665;
+    font-size: 14px;
+    line-height: 30px;
+}
+.plan-bottom{
+    margin-top: 130px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.plan-bottom2{
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.plan-bottom3{
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.mo{
+    color: #4F5665;
+    font-weight: 400;
+}
+.plan_button{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53855;
+    background: #FFF;
+    color: #F53838;
+    font-weight: 700;
+}
+.plan_button-red{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53855;
+    background: #F53838;
+    color: #FFF;
+    font-weight: 700;
+}
+
+/* global map block */
+
+.global_map{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.img_global_map{
+    text-align: center;
+}
+.partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* reviews block */
+
+.reviews{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.comments{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.first_comment{
+    display: flex;
+    width: 455px;
+    
+}
+.comments_border-red{
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+}
+.comments_border{
+    border-radius: 10px;
+    border: 2px solid #DDD;;
+    background: #FFF;
+}
+.comment_text{
+    margin: 20px 30px 30px 30px;
+}
+.comment_geo{
+    padding: 20px;
+    line-height: 0px;
+}
+.comment_score{
+    margin: 20px 0px 0px 140px; 
+}
+.star_score{
+    margin: 20px 30px 0px 0px
+}
+.comment_name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.comment_city{
+    color: #4F5665;
+    font-size: 14px;
+    line-height: 10px;
+}
