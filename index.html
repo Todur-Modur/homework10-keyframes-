@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Roboto:ital,wght@0,500;1,400&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>LaslesVPN</title>
 </head>
+
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
             <a href="/" class="header__home-link">
-                <img src="assets/logo_vpn.svg" alt="logo LaslesVPN">
+                <img src="assets/Logo_vpn.png" alt="logo LaslesVPN">
             </a>
             <nav class="header__navigation">
                 <ul class="header__list">
@@ -29,31 +38,37 @@
                         Help
                     </li>
                 </ul>
-                <span>
+            </nav>
+            <div class="header__signin">
+                <p class="sign-in">
                     Sign In
-                </span>
+                </p>
                 <button class="nav_button">
                     Sign Up
                 </button>
-            </nav>
+            </div>
         </div>
     </header>
     <main>
         <!-- hero section -->
         <section class="hero">
-            <div class="wrapper">
-                <h1 class="title">
-                    Want anything to be easy with LaslesVPN.
-                </h1>
-                <span class="title_description">
-                    Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features
-                    from us.
-                </span>
-                <button class="hero_button">
-                    Get Started
-                </button>
+            <div class="wrapper__hero">
+                <div>
+                    <h1 class="title">
+                        Want anything to be easy with <b>LaslesVPN.</b>
+                    </h1>
+                    <span class="title_description">
+                        Provide a network for all your needs with ease and fun using <b>LaslesVPN</b> discover interesting features from us.
+                    </span>
+                    <p>
+                        <button class="hero_button">
+                            Get Started
+                        </button>
+                    </p>
+                </div>
+                <img src="assets/hero_img.png" alt="title_img">
             </div>
-            <img src="assets/hero_img.png" alt="title_img">
+
         </section>
         <ul class="hero_info">
             <li>
@@ -98,89 +113,87 @@
             <span class="title_description">
                 Let's choose the package that is best for you and explore it happily and cheerfully.
             </span>
-            <section class="three_plans">
-                <div class="plan">
-                    <img src="assets/Free.png" alt="free plan logo">
-                    Free Plan
-                    <ul>
-                        <li>
-                            Unlimited Bandwitch
-                        </li>
-                        <li>
-                            Encrypted Connection
-                        </li>
-                        <li>
-                            No Traffic Logs
-                        </li>
-                        <li>
-                            Works on All Devices
-                        </li>
-                    </ul>
-                    <p>
-                        Free
-                    </p>
-                    <button class="plan_button">
-                        Select
-                    </button>
-                </div>
-                <div class="plan">
-                    <img src="assets/Free.png" alt="free plan logo">
-                    Standard Plan
-                    <ul>
-                        <li>
-                            Unlimited Bandwitch
-                        </li>
-                        <li>
-                            Encrypted Connection
-                        </li>
-                        <li>
-                            Yes Traffic Logs
-                        </li>
-                        <li>
-                            Works on All Devices
-                        </li>
-                        <li>
-                            Connect Anyware
-                        </li>
-                    </ul>
-                    <p>
-                        $9 / mo
-                    </p>
-                    <button class="plan_button">
-                        Select
-                    </button>
-                </div>
-                <div class="plan">
-                    <img src="assets/Free.png" alt="free plan logo">
-                    Premium Plan
-                    <ul>
-                        <li>
-                            Unlimited Bandwitch
-                        </li>
-                        <li>
-                            Encrypted Connection
-                        </li>
-                        <li>
-                            Yes Traffic Logs
-                        </li>
-                        <li>
-                            Works on All Devices
-                        </li>
-                        <li>
-                            Connect Anyware
-                        </li>
-                        <li>
-                            Get New Features
-                        </li>
-                    </ul>
-                    <p>
-                        $12 / mo
-                    </p>
-                    <button class="plan_button-red">
-                        Select
-                    </button>
-                </div>
-            </section>
+            <div class="plan">
+                <img src="assets/Free.png" alt="free plan logo">
+                Free Plan
+                <ul>
+                    <li>
+                        Unlimited Bandwitch
+                    </li>
+                    <li>
+                        Encrypted Connection
+                    </li>
+                    <li>
+                        No Traffic Logs
+                    </li>
+                    <li>
+                        Works on All Devices
+                    </li>
+                </ul>
+                <p>
+                    Free
+                </p>
+                <button class="plan_button">
+                    Select
+                </button>
+            </div>
+            <div class="plan">
+                <img src="assets/Free.png" alt="free plan logo">
+                Standard Plan
+                <ul>
+                    <li>
+                        Unlimited Bandwitch
+                    </li>
+                    <li>
+                        Encrypted Connection
+                    </li>
+                    <li>
+                        Yes Traffic Logs
+                    </li>
+                    <li>
+                        Works on All Devices
+                    </li>
+                    <li>
+                        Connect Anyware
+                    </li>
+                </ul>
+                <p>
+                    $9 / mo
+                </p>
+                <button class="plan_button">
+                    Select
+                </button>
+            </div>
+            <div class="plan">
+                <img src="assets/Free.png" alt="free plan logo">
+                Premium Plan
+                <ul>
+                    <li>
+                        Unlimited Bandwitch
+                    </li>
+                    <li>
+                        Encrypted Connection
+                    </li>
+                    <li>
+                        Yes Traffic Logs
+                    </li>
+                    <li>
+                        Works on All Devices
+                    </li>
+                    <li>
+                        Connect Anyware
+                    </li>
+                    <li>
+                        Get New Features
+                    </li>
+                </ul>
+                <p>
+                    $12 / mo
+                </p>
+                <button class="plan_button-red">
+                    Select
+                </button>
+            </div>
         </div>
         <!-- Map section -->
         <div>
@@ -195,8 +208,8 @@
         <ul class="partners">
             <li class="partners_logo">
                 <img src="assets/netflix_logo.png" alt="netflix logo">
-            </li class="partners_logo">
-            <li>
+            </li>
+            <li class="partners_logo">
                 <img src="assets/reddit_logo.png" alt="reddit logo">
             </li>
             <li class="partners_logo">
@@ -264,7 +277,8 @@
                     <img src="assets/star_logo.png" alt="star logo">
                 </li>
                 <p>
-                    “This is very unusual for my business that currently requires a virtual private network that has high security.”.
+                    “This is very unusual for my business that currently requires a virtual private network that has
+                    high security.”.
                 </p>
             </ul>
             <!-- тут хуйнути спан блоки -->
@@ -284,8 +298,79 @@
     </main>
     <!-- footer section -->
     <footer>
-        <div>
-            <img src="assets/logo_vpn.svg" alt="logo LaslesVPN>
+        <div class="footer">
+            <div class="vpn_footer">
+                <a href="/" class="header__home-link">
+                    <img src="assets/Logo_vpn.png" alt="logo LaslesVPN">
+                </a>
+                <p>LaslesVPN is a private virtual network that has unique features and has high security.</p>
+                <ul>
+                    <li>
+                        <img src="assets/Facebook.png" alt="facebook logo">
+                    </li>
+                    <li>
+                        <img src="assets/Twitter.png" alt="twitter logo">
+                    </li>
+                    <li>
+                        <img src="assets/Instagram.png" alt="Instagram logo">
+                    </li>
+                </ul>
+                <p>©2020LaslesVPN</p>
+            </div>
+            <div class="footer_product">
+                <ul>
+                    <li>
+                        Download
+                    </li>
+                    <li>
+                        Pricing
+                    </li>
+                    <li>
+                        Locations
+                    </li>
+                    <li>
+                        Server
+                    </li>
+                    <li>
+                        Countries
+                    </li>
+                    <li>
+                        Blog
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_engage">
+                <ul>
+                    <li>
+                        LaslesVPN ?
+                    </li>
+                    <li>
+                        FAQ
+                    </li>
+                    <li>
+                        Tutorials
+                    </li>
+                    <li>
+                        About Us
+                    </li>
+                    <li>
+                        Privacy Policy
+                    </li>
+                    <li>
+                        Terms of Service
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_earn">
+                <ul>
+                    <li>
+                        Affiliate
+                    </li>
+                    <li>
+                        Become Partner
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
