@@ -22,6 +22,7 @@ a {
 .header {
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F8F8F8;
 }
 .header__wrapper {
     padding: 58px 40px 0px 0px;
@@ -57,6 +58,9 @@ a {
 .hero{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F8F8F8;
+    margin-top: -130px;
+    padding-top: 130px;
 }
 .wrapper__hero{
     margin-top: 126px;
@@ -84,18 +88,22 @@ a {
     color: #FFF;
     font-weight: 700;
     line-height: 25px;
+    margin-top: 30px;
 }
 .hero_info{
-    margin: 104px 0px 95px 100px;
+    margin: 104px 0px 95px 150px;
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
-    
+    border-radius: 10px;
+    background: #FFF;
+    padding: 72px 112px 72px 106px;
 }
 .hero_info-text{
     display: flex;
     gap: 10px;
-    
+    justify-content: center;
+    align-items: center;
 }
 .hero_info-btn{
     width: 55px;
@@ -104,6 +112,14 @@ a {
     background: #FFECEC;
     border: none;
 }
+.icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
 .hero_info-numbers{
     font-size: 25px;
     font-weight: 700;
@@ -113,6 +129,7 @@ a {
     color: #4F5665;
     font-size: 20px;
     line-height: 30px;
+    margin-top: -0px;
 }
 
 /* features block */
@@ -120,6 +137,9 @@ a {
 .features{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F8F8F8;
+    margin-top: -100px;
+    padding-top: 100px;
 }
 .features__text{
     display: flex;
@@ -144,6 +164,9 @@ a {
 .choose-your-plan{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F8F8F8;
+    margin-top: -210px;
+    padding-top: 210px;
 }
 .center_title{
     margin-top: 210px;
@@ -161,7 +184,7 @@ a {
 }
 .three-plans{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .plan{
     padding-top: 80px;
@@ -231,6 +254,9 @@ a {
 .global_map{
     max-width: 1440px;
     margin: 0 auto;
+    background-color: #F8F8F8;
+    margin-top: -220px;
+    padding-top: 220px;
 }
 .img_global_map{
     text-align: center;
@@ -247,6 +273,8 @@ a {
     max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: #F8F8F8;
+    margin-top: -80px;
 }
 .comments{
     display: flex;
@@ -302,11 +330,13 @@ a {
     background-color: #FFF;
     border-radius: 10px;
     background: #FFF;
+    padding: 160px 60px 0px 60px;
     /* не розумію, чого не працює бекграунд колір */
 }
 .red_btn{
     display: flex;
     align-items: center;
+    padding-top: 120px;
 }
 .red-btn{
     width: 250px;
@@ -325,8 +355,8 @@ a {
     max-width: 1440px;
     margin: 0 auto;
     background-color: #F8F8F8;
-    margin-top: -120px;
-    padding: 200px 170px 0px 150px;
+    margin-top: -240px;
+    padding: 510px 170px 0px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -349,4 +379,3 @@ a {
     color: #4F5665;
     line-height: 30px;
 }
-
