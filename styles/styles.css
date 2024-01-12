@@ -86,10 +86,11 @@ a {
 }
 
 .title_description {
+    padding-top: 20px;
     margin-top: -20px;
     max-width: 555px;
     color: #4F5665;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .hero_button {
@@ -171,6 +172,7 @@ a {
 .features__text {
     display: flex;
     justify-content: space-around;
+
 }
 
 .features_title {
@@ -179,14 +181,15 @@ a {
     font-weight: 500;
     line-height: 50px;
 }
-
 .features_box {
     display: flex;
     align-items: center;
     color: #4F5665;
     font-size: 14px;
     line-height: 30px;
+    padding-top: 10px;
 }
+
 
 /* choose your plan block */
 
@@ -213,6 +216,7 @@ a {
     line-height: 30px;
     margin-bottom: 60px;
     margin-top: -30px;
+    
 }
 
 .three-plans {
