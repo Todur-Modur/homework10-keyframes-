@@ -1,0 +1,60 @@
+button{
+    cursor: pointer;
+}
+.title{
+    text-shadow: 5px 5px 20px rgb(239, 198, 205);
+}
+.hero_button{
+    box-shadow: 15px 15px 10px rgb(161, 154, 154);
+}
+.hero_img-position{
+    box-shadow: 15px 15px 10px rgb(249, 207, 207), -15px -15px 10px rgb(249, 207, 207);
+
+}
+.hero_info{
+    filter: blur(5px);
+    transition: 0.5s;
+}
+.hero_info:hover{
+    filter: blur(0px);
+}
+.plan-logo{
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.plan-logo:hover{
+    transform: scale(150%);
+}
+.nav_button{
+    box-shadow: 4px 2px 0px #106eea;
+    animation: 2s linear infinite forwards border;
+}
+@keyframes border{
+    10%{
+        box-shadow: 0px 4px 0px #106eea;
+    }
+    20%{
+        box-shadow: -4px 4px 0px #106eea;
+    }
+    30%{
+        box-shadow: -4px 2px 0px #106eea;
+    }
+    40%{
+        box-shadow: -4px 0px 0px #106eea;
+    }
+    50%{
+        box-shadow: -4px -2px 0px #106eea;
+    }
+    60%{
+        box-shadow: -0px -4px 0px #106eea;
+    }
+    70%{
+        box-shadow: 4px -2px 0px #106eea;
+    }
+    80%{
+        box-shadow: 4px 0px 0px #106eea;
+    }
+    100%{
+        box-shadow: 4px 2px 0px #106eea;
+    }
+}
